@@ -8,6 +8,7 @@ import Education from "./views/Education.js";
 import Apply from "./views/Apply";
 import Staff from "./views/Staff";
 import Administration from "./views/Administration";
+import Login from "./views/Login";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.render(
         <Route path="/apply" element={<Apply />} />
         <Route path="/staff" element={<Staff />} />
         <Route path="/administration" element={<Administration />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
