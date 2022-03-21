@@ -3,6 +3,13 @@
     padding: 1.5em;
     background-color: white;
     margin-top: 0;
+    
+    /* text-align: center; */
+    background-color:#ffffff;
+    /* border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em; */
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.44); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.44);
 }
 
 .nav-item{

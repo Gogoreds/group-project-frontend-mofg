@@ -31,7 +31,7 @@ const Staff = () => {
 
   return (
     <div className="App">
-      <h1>Staff</h1>
+      <h1>Add Staff</h1>
       <div className="staff-input-management container">
         <form onSubmit={addStaff}>
           <label>
@@ -78,6 +78,9 @@ const Staff = () => {
             <button className="" onClick={addStaff}>Add New Staff</button>
           </label>
         </form>
+      </div>
+      <h1>Staff List</h1>
+      <div className="staff-input-management container">
         <ul className="staff-list">
           {staff.map((staff) => (
             <li className="staff-list-item" key={staff.id}>
@@ -89,7 +92,7 @@ const Staff = () => {
             </li>
           ))}
         </ul>
-      </div>
+      </div><br /><br />
   </div>
   );
 }
