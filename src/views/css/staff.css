@@ -1,0 +1,30 @@
+body{
+    margin: 0 auto;
+    margin-top: 2em;
+    text-align: center;
+    width: 60em;
+    /* width: 100em; */
+    background-color:#767f83;
+  }
+
+.container{
+    background-color: rgb(209, 209, 209);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.staff-input-management{
+    text-align: left;
+    padding: 2em;
+}
+
+.staff-list{
+    
+}
+
+.staff-list-item{
+    margin: 1em;
+    background-color: aqua;
+    text-align: left;
+
+}
