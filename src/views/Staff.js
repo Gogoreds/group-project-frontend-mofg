@@ -31,12 +31,12 @@ const Staff = () => {
 
   return (
     <div className="App">
-      <h1>Add Staff</h1>
+      <h1 className="padding-top">Add Staff</h1>
       <div className="staff-input-management container">
         <form onSubmit={addStaff}>
           <label>
             <input
-              className=""
+              className="staff-input-field"
               name="name"
               type="text"
               value={name}
@@ -44,7 +44,7 @@ const Staff = () => {
               placeholder="Staff Name"/><br />
 
             <input
-              className=""
+              className="staff-input-field"
               name="role"
               type="text"
               value={role}
@@ -52,7 +52,7 @@ const Staff = () => {
               placeholder="Enter Role"/><br />
 
             <input
-              className=""
+              className="staff-input-field"
               name="age"
               type="date"
               value={age}
@@ -60,7 +60,7 @@ const Staff = () => {
               placeholder="Year of Birth"/><br />
 
             <input
-              className=""
+              className="staff-input-field"
               name="gender"
               type="text"
               value={gender}
@@ -68,14 +68,15 @@ const Staff = () => {
               placeholder="Enter Gender"/><br />
 
             <input
-              className=""
+              className="staff-input-field"
               name="deployDate"
               type="date"
               value={deployDate}
               onChange={(e) => setDeployDate(e.target.value)}
               placeholder="Date of deployment"/><br />
             
-            <button className="" onClick={addStaff}>Add New Staff</button>
+            <button className="add-staff-btn" onClick={addStaff}>Add New Staff</button>
+
           </label>
         </form>
       </div>
