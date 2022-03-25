@@ -11,6 +11,7 @@ import Administration from "./views/Administration";
 import Login from "./views/Login";
 
 ReactDOM.render(
+  //Let us only implement our components here. Functions and logic can be written in separate .fs files
   <React.StrictMode>
     <BrowserRouter>
     <Navbar />
