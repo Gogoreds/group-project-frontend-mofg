@@ -2,8 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
+
 import Navbar from "./components/Navbar";
+
 import App from "./App";
+
 import Education from "./views/Education.js";
 import Apply from "./views/Apply";
 import Staff from "./views/Staff";

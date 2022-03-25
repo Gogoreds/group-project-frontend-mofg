@@ -4,12 +4,10 @@ body{
     text-align: center;
     width: 60em;
     /* width: 100em; */
-    background-color:#767f83;
   }
 
 .App {
     text-align: center;
-    background-color:#ffffff38;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.44); 
@@ -25,7 +23,6 @@ body{
 }
 
 .container{
-    background-color: rgba(209, 209, 209, 0.288);
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -50,8 +47,6 @@ body{
     padding: 5px;
     font-size: 16px;
     border-width: 1px;
-    border-color: #CCCCCC;
-    background-color: #FFFFFF;
     color: #000000;
     border-style: solid;
     border-radius: 0px;
@@ -68,7 +63,6 @@ body{
 .add-staff-btn {
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
 	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-	background-color:#ffffff;
 	border-radius:6px;
 	border:1px solid #dcdcdc;
 
@@ -83,7 +77,6 @@ body{
 }
 .add-staff-btn:hover {
     background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-    background-color:#f6f6f6;
 }
 .add-staff-btn:active {
     position:relative;

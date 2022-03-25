@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./css/staff.css";
+import Database from "../database/Database.js"
 
 const Staff = () => {
   const [staff, setStaff] = useState([]);
@@ -82,6 +83,9 @@ const Staff = () => {
       </div>
       <h1>Staff List</h1>
       <div className="staff-input-management container">
+
+        <Database />
+        
         <ul className="staff-list">
           {staff.map((staff) => (
             <li className="staff-list-item" key={staff.id}>
