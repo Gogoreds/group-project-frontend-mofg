@@ -45,7 +45,7 @@ const Staff = () => {
 
 
 function showStaffManagement() {
-  slideDown(document.getElementById('staff-management'), 200);
+  // slideDown(document.getElementById('staff-management'), 200);
 }
 
   return (
