@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import Database from "./database/Database.js"
+// import React, { useState, useEffect, useMemo } from 'react';
+
 import './App.css';
 
 function App() {

@@ -1,6 +1,7 @@
 import '../App.css';
-import { EasybaseProvider, useEasybase } from 'easybase-react';
-import { useEffect } from 'react';
+import { EasybaseProvider } from 'easybase-react';
+// import { EasybaseProvider, useEasybase } from 'easybase-react';
+// import { useEffect } from 'react';
 
 function Database() {
   return (
@@ -14,7 +15,7 @@ function Database() {
 
 function Notes() {
   const backendData = [
-    { title: "Tom Hawerford", description: "Teacher", createdat: "01-18-2021" },
+    { title: "Tom Haverford", description: "Teacher", createdat: "01-18-2021" },
     { title: "Mavrick Milkroad", description: "Substitute Teacher", createdat: "12-01-2020" },
     { title: "James Burton", description: "Janitor", createdat: "12-30-2020" }
   ]
