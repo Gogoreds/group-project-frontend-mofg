@@ -10,21 +10,20 @@ const Footer = () => {
                 <div className='location'>
                     <FaSearchLocation size={20} style={{color: '#ffffff', marginRight: '2rem'}} />
                 <div>
-                    <p> Blablagatan 123</p>
+                    <p> Wouldn't you like to know</p>
                     <h4>Stockholm, SWEDEN</h4>
                 </div>
                 </div>
                 <div className='phone'>
-                    <h4><FaPhone size={20} style={{color: '#ffffff', marginRight: '2rem'}} /> +46 100 123 12</h4>
+                    <h4><FaPhone size={20} style={{color: '#ffffff', marginRight: '2rem'}} /> +46 892 391 01</h4>
                 </div>
                 <div className='email'>
-                    <h4><FaMailBulk size={20} style={{color: '#ffffff', marginRight: '2rem'}} /> marsha@mail.com</h4>
+                    <h4><FaMailBulk size={20} style={{color: '#ffffff', marginRight: '2rem'}} /> WeUseOwls@duh.com</h4>
                 </div>
             </div>
         <div className='right'>
             <h4>About Us</h4>
-            <p>Space Architects develope advanced construction technologies for space exploration – autonomous robotics and sustainable materials;
-            which will transform how we build and live on Earth.</p>
+            <p>Most knowledgable wizards around the world have gathered here to offer you the best magical education you deserve!</p>
         <div className='social'>
             <FaFacebook size={30} style={{color: '#ffffff', marginRight: '1rem'}} />
             <FaTwitter size={30} style={{color: '#ffffff', marginRight: '1rem'}} />
